@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+.next/
+*.db
+*.db-wal
+*.db-shm
+
+.DS_Store
+**/.DS_Store

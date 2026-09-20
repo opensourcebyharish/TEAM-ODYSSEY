@@ -1,0 +1,21 @@
+{
+  "name": "odyssey-mission-control",
+  "version": "1.0.0",
+  "description": "ODYSSEY — Southern Ocean Robotic Explorer — Mission Control Web Application",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace server",
+    "dev:client": "npm run dev --workspace client",
+    "dev": "npm run dev:server & npm run dev:client",
+    "seed": "npm run seed --workspace server",
+    "start:server": "npm start --workspace server",
+    "build:client": "npm run build --workspace client"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
